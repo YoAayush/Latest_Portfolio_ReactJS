@@ -272,3 +272,13 @@ textarea {
         display: none;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .contact-inner {
+        width: fit-content;
+        height: fit-content;
+        padding: 2%;
+        margin: 50px 10px;
+        box-shadow: none;
+    }
+}
