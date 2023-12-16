@@ -1,0 +1,181 @@
+.nav-items>a {
+    text-decoration: none;
+    margin: auto 30px;
+    font-size: 30px;
+    color: white;
+  }
+
+.About-outer {
+    /* background-color: #E24E1B; */
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.About-inner {
+    width: 80%;
+    height: 50%;
+    margin: 100px auto 50px;
+    /* text-align: center; */
+    color: white;
+    font-size: 25px;
+    /* border: white 2px solid; */
+}
+
+.About-inner>h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #E24E1B;
+}
+
+.media {
+    margin-top: 40px;
+}
+
+.media-list {
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+}
+
+.media>.media-list>a>li>img {
+    width: 40px;
+    height: 40px;
+    margin: auto 10px;
+    /* filter: invert(1); */
+}
+
+.profile-img {
+    text-align: center;
+}
+
+.profile-myimage {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #d6caca;
+    box-shadow: rgba(249, 246, 244, 0.686) 0px 2px 10px;
+    margin-bottom: 10px;
+}
+
+.skills-icons {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #E24E1B;
+}
+
+.skills {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.icons>img {
+    width: 80px;
+    height: 80px;
+    color: black;
+    /* filter: invert(1); */
+}
+
+.icons>img:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: auto;
+    text-align: center;
+} 
+
+.connect-email {
+    /* background-color: aqua; */
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.connect-email>a>span {
+    display: flex;
+    width: 100%;
+    font-size: 25px;
+    padding: 3%;
+    background-color: black;
+    color: white;
+    border: white 3px solid;
+    border-radius: 30px;
+}
+
+.connect-email>a>span>img {
+    width: 30px;
+    height: 25px;
+    margin-left: 10px;
+    filter: invert(1);
+}
+
+.connect-email>a>span:hover {
+    background-color: #E24E1B;
+    border: #E24E1B 3px solid;
+}
+
+@media screen and (max-width: 1050px) {
+    .profile-myimage {
+        height: 200px;
+        width: 200px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .icons>img {
+        width: 60px;
+        height: 60px;
+        color: black;
+        /* filter: invert(1); */
+    }
+
+    .connect-email>a>span {
+        font-size: 25px;
+        padding: 1.5%;
+    }
+    
+    .connect-email>a>span>img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .skills {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .connect-email>a>span {
+        font-size: 25px;
+        padding: 2%;
+    }
+    
+    .connect-email>a>span>img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .btn>a>button {
+        font-size: 20px;
+    } 
+}
+
+/* @media screen and (max-width: 585px) {
+    
+} */
