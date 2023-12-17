@@ -176,6 +176,17 @@
     } 
 }
 
-/* @media screen and (max-width: 585px) {
-    
-} */
+@media screen and (max-width: 430px) {
+    .skills {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .skills-icons {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 50px;
+        color: #E24E1B;
+    }
+}
