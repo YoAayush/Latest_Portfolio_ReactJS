@@ -4,7 +4,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .inner {
@@ -117,7 +117,7 @@
 
 @media screen and (max-width: 585px) {
     .inner {
-        margin: auto;
+        margin: 60px auto;
     }
 
     /* .outer {
