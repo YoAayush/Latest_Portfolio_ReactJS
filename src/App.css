@@ -62,6 +62,7 @@ ol>a:hover {
 @media screen and (max-width: 480px) {
   #menu-icon {
     display: block;
+    backdrop-filter: blur(0px);
   }
 
   .nav-items, nav {

@@ -23,6 +23,8 @@
 .flex-system {
     display: flex;
     flex-direction: row;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
     gap: 30px;
     padding: 2%;
 }
@@ -137,6 +139,10 @@ a>li>button:hover, li>button:hover {
         margin: 60px auto 30px;
     }
 
+    .projects-inner {
+        width: 90%;
+    }
+
     .project-card>img {
         width: 280px;
         height: 200px;
@@ -219,10 +225,23 @@ a>li>button:hover, li>button:hover {
     }
 }
 
+@media screen and (max-width: 470px) {
+    .projects-inner {
+        width: fit-content;
+        box-shadow: none;
+    }
+}
+
 @media screen and (max-width: 390px) {
+    .project-card {
+        width: 100%;
+        padding: 6px;
+    }
+
     .project-card>img {
         width: 260px;
         height: 180px;
+        margin-top: 5px;
     }
 
     .project-card>h3 {
@@ -234,11 +253,11 @@ a>li>button:hover, li>button:hover {
     }
 
     a>li>button, li>button {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     a>li>img {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
     }
 }
