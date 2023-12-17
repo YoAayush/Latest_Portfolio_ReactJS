@@ -127,4 +127,12 @@
         color: white;
         border: white 2px solid;
     }
+
+    .inner {
+        width: 100%;
+    }
+
+    .inner-about {
+        font-size: 20px;
+    }
 }
