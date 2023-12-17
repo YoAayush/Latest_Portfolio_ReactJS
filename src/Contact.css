@@ -273,12 +273,16 @@ textarea {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
     .contact-inner {
         width: fit-content;
         height: fit-content;
         padding: 2%;
         margin: 50px 10px;
         box-shadow: none;
+    }
+
+    form>.head>h1 {
+        box-shadow: #E24E1B 0px 48px 500px 0px;
     }
 }

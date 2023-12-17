@@ -26,7 +26,7 @@ export default function Contact(props) {
         <div className="contact-outer">
             <div className="contact-inner">
                 <form ref={form} onSubmit={submit}>
-                    <div>
+                    <div className="head">
                         <h1>Contact Me</h1>
                     </div>
                     <div style={{ marginTop: "10px", color: "#E24E1B" }}>
