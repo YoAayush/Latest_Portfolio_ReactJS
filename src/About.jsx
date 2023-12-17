@@ -8,8 +8,7 @@ export default function About(props) {
             <div className="About-inner">
                 <h1>About Me</h1>
                 <p>
-                    Hello!! I am  Aayush Chopra skilled in Web Development and also in programming languages.
-                    I'm in my BCA 2nd year persuing from VIPS, affiliated to GGSIPU. Excited to Work with new Individuals and a Teams and enhancing my skiils according to daily trends in web Development and also in new technologies.
+                    Enthusiastic and diligent 2nd Year BCA student with a passion for web developing and coding. Seeking a dynamic career opportunity to apply my programming and developing skills in a challenging and collaborative environment, contributing to innovative solutions and continuous learning while striving for professional excellence.
                 </p>
                 <p style={{ marginTop: "10px" }}>
                     Apart from this, also experienced in Tally (accounting software)
