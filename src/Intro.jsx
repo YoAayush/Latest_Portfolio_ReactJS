@@ -14,7 +14,7 @@ export default function Intro(props) {
                 <div className="inner-about margin">{props.data[0].about}</div>
                 <div className="btn">
                     <Link to={props.data[0].resume} target="_blank" download={false}>
-                        <button>Download Resume</button>
+                        <button>Resume</button>
                     </Link>
                 </div>
             </div>

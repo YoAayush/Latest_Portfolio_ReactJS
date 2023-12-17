@@ -9,14 +9,14 @@ export default function About(props) {
                 <h1>About Me</h1>
                 <p>
                     Hello!! I am  Aayush Chopra skilled in Web Development and also in programming languages.
-                    I'm in my BCA 2nd year persuing from VIPS, affiliated to GGSIPU. Excited to Work with new Individuals and a Teams and enhancing my skiils according to daily trends in web Development.
+                    I'm in my BCA 2nd year persuing from VIPS, affiliated to GGSIPU. Excited to Work with new Individuals and a Teams and enhancing my skiils according to daily trends in web Development and also in new technologies.
                 </p>
                 <p style={{ marginTop: "10px" }}>
-                    Apart from this, I'm also Tally (software accounting) Teacher.
+                    Apart from this, also experienced in Tally (accounting software)
                 </p>
                 <div className="btn">
                     <Link to={props.data[0].resume} target="_blank" download={false}>
-                        <button>Download Resume</button>
+                        <button>Resume</button>
                     </Link>
                 </div>
                 <div className="media">
