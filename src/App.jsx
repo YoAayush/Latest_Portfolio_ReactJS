@@ -37,8 +37,6 @@ function App() {
     document.getElementById("head-nav").style.display = 'none';
   }
 
-
-
   return (
     <div>
       <div id='menu-icon'>
@@ -50,10 +48,10 @@ function App() {
             <img src="/icons8-close-window-100.png" onClick={CloseMenu} />
           </div>
           <ol className='nav-items'>
-            <Link to="/Home"><li id='u-v' onClick={CloseMenu}>Home</li></Link>
-            <Link to="/About"><li id='u-v' onClick={CloseMenu}>About</li></Link>
-            <Link to="/Projects"><li id='u-v' onClick={CloseMenu}>Projects</li></Link>
-            <Link to="/Contact"><li id='u-v' onClick={CloseMenu}>Contact</li></Link>
+            <Link to="/Home"><li>Home</li></Link>
+            <Link to="/About"><li>About</li></Link>
+            <Link to="/Projects"><li>Projects</li></Link>
+            <Link to="/Contact"><li>Contact</li></Link>
           </ol>
         </nav>
       </div>
