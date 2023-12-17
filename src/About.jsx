@@ -66,6 +66,9 @@ export default function About(props) {
                     </Link>
                 </div>
             </div>
+            <div id='footer'>
+                <p>© 2023 All Rights Reserved | Aayush Chopra</p>
+            </div>
         </div>
     )
 }

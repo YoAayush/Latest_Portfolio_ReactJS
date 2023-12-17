@@ -90,6 +90,9 @@ export default function Contact(props) {
                     <input type="submit" value="Send" />
                 </form>
             </div>
+            <div id='footer'>
+                <p>© 2023 All Rights Reserved | Aayush Chopra</p>
+            </div>
         </div>
     )
 }

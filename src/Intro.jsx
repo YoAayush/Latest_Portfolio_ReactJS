@@ -13,10 +13,13 @@ export default function Intro(props) {
                 <div className="inner-domain">{props.data[0].recent}</div>
                 <div className="inner-about margin">{props.data[0].about}</div>
                 <div className="btn">
-                    <Link to={props.data[0].resume}target="_blank" download={false}>
+                    <Link to={props.data[0].resume} target="_blank" download={false}>
                         <button>Download Resume</button>
                     </Link>
                 </div>
+            </div>
+            <div id='footer'>
+                <p>© 2023 All Rights Reserved | Aayush Chopra</p>
             </div>
         </div>
     )
