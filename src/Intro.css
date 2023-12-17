@@ -116,9 +116,13 @@
 }
 
 @media screen and (max-width: 585px) {
-    .outer {
-        overflow: hidden;
+    .inner {
+        margin: auto;
     }
+
+    /* .outer {
+        overflow: hidden;
+    } */
 
     .inner>h1 {
         font-size: 50px;
