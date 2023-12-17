@@ -84,7 +84,7 @@ a>li>img {
     /* background-color: aqua; */
 }
 
-a>li>button {
+a>li>button, li>button {
     margin: auto 10px;
     width: 150px;
     /* height: 25px; */
@@ -99,7 +99,7 @@ a>li>button {
     border-radius: 20px;
 }
 
-a>li>button:hover {
+a>li>button:hover, li>button:hover {
     cursor: pointer;
     background-color: #E24E1B;
     border-color: #E24E1B;
@@ -123,7 +123,7 @@ a>li>button:hover {
         /* filter: invert(1); */
     }
 
-    a>li>button {
+    a>li>button, li>button {
         margin: auto 10px;
         width: 120px;
         /* height: 25px; */
@@ -180,7 +180,7 @@ a>li>button:hover {
         height: 40px;
     }
 
-    a>li>button {
+    a>li>button, li>button {
         margin: auto 10px;
         width: 120px;
         /* height: 25px; */
@@ -233,7 +233,7 @@ a>li>button:hover {
         font-size: 12px;
     }
 
-    a>li>button {
+    a>li>button, li>button {
         font-size: 16px;
     }
 
