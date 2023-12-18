@@ -72,7 +72,7 @@
 .skills {
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 .icons>img {
@@ -141,14 +141,20 @@
     p {
         font-size: 20px;
     }
-}
 
-@media screen and (max-width: 965px) {
     .icons>img {
         width: 60px;
         height: 60px;
         color: black;
         /* filter: invert(1); */
+    }
+}
+
+@media screen and (max-width: 965px) {
+    .skills {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
     }
 
     .connect-email>a>span {

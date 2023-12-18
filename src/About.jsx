@@ -49,10 +49,16 @@ export default function About(props) {
                             <img src="/firebase.png" alt="" title="google firebase" />
                         </div>
                         <div className="icons">
-                            <img src="/sql.png" alt="" />
+                            <img src="/sql.png" alt="" />  
                         </div>
                         <div className="icons">
                             <img src="/python.png" alt="" title="python" />
+                        </div>
+                        <div className="icons">
+                            <img src="/icons8-github-100.png" alt="" title="Github" />
+                        </div>
+                        <div className="icons">
+                            <img src="/icons8-git-128.png" alt="" title="Git" />
                         </div>
                         <div className="icons">
                             <img src="/tally-prime.png" alt="" title="tally-prime" />
