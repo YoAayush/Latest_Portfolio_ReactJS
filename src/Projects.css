@@ -232,7 +232,7 @@ a>li>button:hover, li>button:hover {
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     .project-card {
         width: 100%;
         padding: 6px;
@@ -259,5 +259,20 @@ a>li>button:hover, li>button:hover {
     a>li>img {
         width: 30px;
         height: 30px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    a>li>button, li>button {
+        font-size: 14px;
+        width: 100px;
+        padding: 2.5%;
+    }
+
+    a>li>img {
+        width: 27px;
+        height: 27px;
+        margin-bottom: 5px;
+        margin-left: 15px;
     }
 }
