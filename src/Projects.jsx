@@ -27,7 +27,7 @@ export default function Projects() {
                         <div className="links">
                             <Link to="https://github.com/YoAayush/microsoft-home-landing-page-clone" target="_blank"><li><img src="/github-logo.png" alt="github" /></li></Link>
                             <Link to="https://yoaayush.github.io/microsoft-home-landing-page-clone/" target="_blank"><li><button>Live Preview</button></li></Link>
-                            <li><button onClick={Copy1(links[0])}>Copy Link</button></li>
+                            <li><button onClick={()=>{Copy1(links[0])}}>Copy Link</button></li>
                         </div>
                     </div>
                     <div className="project-card">
@@ -37,7 +37,7 @@ export default function Projects() {
                         <div className="links">
                             <Link to="https://github.com/YoAayush/Chopra-Screen-Arts-Website" target="_blank"><li><img src="/github-logo.png" alt="github" /></li></Link>
                             <Link to="https://yoaayush.github.io/Chopra-Screen-Arts-Website/" target="_blank"><li><button>Live Preview</button></li></Link>
-                            <li><button onClick={Copy1(links[1])}>Copy Link</button></li>
+                            <li><button onClick={()=>{Copy1(links[1])}}>Copy Link</button></li>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ export default function Projects() {
                         <div className="links">
                             <Link to="https://github.com/YoAayush/github-profile-finder.github.io" target="_blank"><li><img src="/github-logo.png" alt="github" /></li></Link>
                             <Link to="https://yoaayush.github.io/github-profile-finder.github.io/" target="_blank"><li><button>Live Preview</button></li></Link>
-                            <li><button onClick={Copy1(links[2])}>Copy Link</button></li>
+                            <li><button onClick={()=>{Copy1(links[2])}}>Copy Link</button></li>
                         </div>
                     </div>
                     <div className="project-card">
@@ -59,7 +59,7 @@ export default function Projects() {
                         <div className="links">
                             <Link to="https://github.com/YoAayush/Music.Tech.github.io" target="_blank"><li><img src="/github-logo.png" alt="github" /></li></Link>
                             <Link to="https://music-tech.netlify.app/" target="_blank"><li><button>Live Preview</button></li></Link>
-                            <li><button onClick={Copy1(links[3])}>Copy Link</button></li>
+                            <li><button onClick={()=>{Copy1(links[3])}}>Copy Link</button></li>
                         </div>
                     </div>
                 </div>
