@@ -33,7 +33,7 @@ export default function Projects() {
                     <div className="project-card">
                         <img src="/chopra-screen-arts.jpg" alt="microsoft_home_landing_page" />
                         <h3>Chopra Screen Arts Website</h3>
-                        <p>Made a Professional website of business named as CHOPRA SCREEN ARTS with pure HTML, CSS and JS (fully responsive wiht contact page)</p>
+                        <p>Made a Professional website of business named as CHOPRA SCREEN ARTS with pure HTML, CSS and JS (fully responsive with contact page)</p>
                         <div className="links">
                             <Link to="https://github.com/YoAayush/Chopra-Screen-Arts-Website" target="_blank"><li><img src="/github-logo.png" alt="github" /></li></Link>
                             <Link to="https://yoaayush.github.io/Chopra-Screen-Arts-Website/" target="_blank"><li><button>Live Preview</button></li></Link>
