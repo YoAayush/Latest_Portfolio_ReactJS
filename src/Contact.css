@@ -137,7 +137,21 @@ textarea {
     /* filter: invert(1); */
 }
 
+@media screen and (min-width: 2000px) {
+    .contact-outer {
+        height: 100vh;
+    }
+
+    .contact-inner {
+        margin: auto 500px;
+    }
+}
+
 @media screen and (max-width: 1050px) {
+
+    .contact-outer {
+        height: 100vh;
+    }
 
     .card-inp>input[type="text"],
     input[type="email"] {
@@ -176,13 +190,13 @@ textarea {
     }
 }
 
-@media screen and (min-width: 2000px) {
-    .contact-outer {
-        height: 100vh;
-    }
-
+@media screen and (max-width: 1260px) {
     .contact-inner {
-        margin: auto 500px;
+        width: 80%;
+        height: fit-content;
+        padding: 2%;
+        /* margin: 50px 10px; */
+        /* box-shadow: none; */
     }
 }
 
@@ -235,6 +249,11 @@ textarea {
 }
 
 @media screen and (max-width: 840px) {
+
+    .contact-outer {
+        height: 100%;
+    }
+
     .card {
         text-align: left;
         margin-top: 20px;
