@@ -13,7 +13,7 @@ export default function Contact(props) {
             alert("please all the fields.");
             return;
         }
-        emailjs.sendForm('service_3eev447', 'template_vr4i70g', form.current, 'dcnwF_YdnAdBSU6wr')
+        emailjs.sendForm(import.meta.env.VITE_serviceId, import.meta.env.VITE_templateId, form.current, import.meta.env.VITE_publicKey)
             .then((result) => {
                 alert("message sent");
                 window.location.reload();
