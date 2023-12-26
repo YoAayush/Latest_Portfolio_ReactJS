@@ -272,6 +272,7 @@ textarea {
         background-color: transparent;
         color: #E24E1B;
         border: 1px #f6f0ef solid;
+        box-shadow: #E24E1B 0px 48px 600px 0px;;
     }
 
     textarea {
@@ -301,6 +302,6 @@ textarea {
     }
 
     form>.head>h1 {
-        box-shadow: #E24E1B 0px 48px 600px 0px;
+        box-shadow: none;
     }
 }
