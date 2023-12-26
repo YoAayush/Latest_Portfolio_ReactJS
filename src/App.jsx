@@ -23,7 +23,8 @@ function App() {
       linkedin_img: "/linkedin.png",
       image: "/image.png",
       github: "/github-logo.png",
-      facebook: "/facebook.png"
+      facebook: "/facebook.png",
+      resume: "/Aayush Chopra Resume (NEW).pdf"
     }
   ]
 
