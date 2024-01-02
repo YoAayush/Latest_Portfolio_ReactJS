@@ -91,7 +91,7 @@ export default function Contact(props) {
                 </form>
             </div>
             <div id='footer'>
-                <p>© 2023 All Rights Reserved | Aayush Chopra</p>
+                <p>© 2024 All Rights Reserved | Aayush Chopra</p>
             </div>
         </div>
     )
