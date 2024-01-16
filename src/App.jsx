@@ -9,7 +9,7 @@ function App() {
 
   const data1 = [
     {
-      resume: "/Aayush Chopra Resume (NEW).pdf",
+      resume: "/Aayush Chopra [ NEW RESUME ].pdf",
       image: "/image.png",
       name: "Aayush Chopra",
       about: "Currently pursuing BCA from Vivekananda Institute of professional studies, Technical Campus, affiliated to GGSIPU.",
@@ -24,7 +24,7 @@ function App() {
       image: "/image.png",
       github: "/github-logo.png",
       facebook: "/facebook.png",
-      resume: "/Aayush Chopra Resume (NEW).pdf"
+      resume: "/Aayush Chopra [ NEW RESUME ].pdf"
     }
   ]
 
