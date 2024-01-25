@@ -26,7 +26,7 @@ export default function Projects() {
                         <p>Made a Microsoft website home landing page clone with pure HTML, CSS and JS with fully responsiveness.</p>
                         <div className="links">
                             <Link to="https://github.com/YoAayush/microsoft-home-landing-page-clone" target="_blank"><li><img src="/github-logo.png" alt="github" /></li></Link>
-                            <Link to="https://yoaayush.github.io/microsoft-home-landing-page-clone/" target="_blank"><li><button>Live Preview</button></li></Link>
+                            <Link to="https://microsoft-home-landing-page-clone.vercel.app/" target="_blank"><li><button>Live Preview</button></li></Link>
                             <li><button onClick={()=>{Copy1(links[0])}}>Copy Link</button></li>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ export default function Projects() {
                         <p>Made a Professional website of business named as CHOPRA SCREEN ARTS with pure HTML, CSS and JS (fully responsive with contact page)</p>
                         <div className="links">
                             <Link to="https://github.com/YoAayush/Chopra-Screen-Arts-Website" target="_blank"><li><img src="/github-logo.png" alt="github" /></li></Link>
-                            <Link to="https://yoaayush.github.io/Chopra-Screen-Arts-Website/" target="_blank"><li><button>Live Preview</button></li></Link>
+                            <Link to="https://chopra-screen-arts-website.vercel.app/" target="_blank"><li><button>Live Preview</button></li></Link>
                             <li><button onClick={()=>{Copy1(links[1])}}>Copy Link</button></li>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ export default function Projects() {
                         <p>Made a github profile finder where you can easily find any profile with their repositories with pure HTML, CSS and JS</p>
                         <div className="links">
                             <Link to="https://github.com/YoAayush/github-profile-finder.github.io" target="_blank"><li><img src="/github-logo.png" alt="github" /></li></Link>
-                            <Link to="https://yoaayush.github.io/github-profile-finder.github.io/" target="_blank"><li><button>Live Preview</button></li></Link>
+                            <Link to="https://github-profile-finder-github-io.vercel.app/" target="_blank"><li><button>Live Preview</button></li></Link>
                             <li><button onClick={()=>{Copy1(links[2])}}>Copy Link</button></li>
                         </div>
                     </div>
