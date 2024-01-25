@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 export default function Projects() {
 
     const links = [
-        "https://yoaayush.github.io/microsoft-home-landing-page-clone/",
-        "https://yoaayush.github.io/Chopra-Screen-Arts-Website/",
-        "https://yoaayush.github.io/github-profile-finder.github.io/",
+        "https://microsoft-home-landing-page-clone.vercel.app/",
+        "https://chopra-screen-arts-website.vercel.app/",
+        "https://github-profile-finder-github-io.vercel.app/",
         "https://music-tech.netlify.app/"
     ];
 
