@@ -21,16 +21,17 @@
 }
 
 .flex-system {
-    display: flex;
-    flex-direction: row;
-    /* display: grid;
-    grid-template-columns: repeat(2,1fr); */
-    gap: 30px;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* row-gap: 10px; */
+    column-gap: 30px;
     padding: 2%;
 }
 
 .gap {
-    margin-top: 40px;
+    margin-top: 5px;
 }
 
 .projects-inner>h3 {
@@ -40,9 +41,13 @@
 
 .project-card {
     /* background-color: aquamarine; */
-    width: 50%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     border: 1px solid #E24E1B;
-    padding: 15px;
+    padding: 18px 15px;
     border-radius: 60px;
     box-shadow: 5px 15px 40px -20px #E24E1B;
 }
@@ -54,6 +59,7 @@
 }
 
 .project-card>h3 {
+    margin-top: 15px;
     font-size: 35px;
     font-weight: 600;
 }
@@ -80,9 +86,14 @@ a>li>img {
 }
 
 .links {
-    text-align: left;
+    /* text-align: left; */
+    width: fit-content;
+    /* background-color: #E24E1B; */
+    margin: auto;
     display: flex;
-    /* justify-content: center; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     /* background-color: aqua; */
 }
 
@@ -107,9 +118,9 @@ a>li>button:hover, li>button:hover {
     border-color: #E24E1B;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1260px) {
     .project-card>img {
-        width: 320px;
+        width: 400px;
         height: 250px;
     }
 
@@ -134,7 +145,19 @@ a>li>button:hover, li>button:hover {
     }
 }
 
-@media screen and (max-width: 965px) {
+@media screen and (max-width: 1130px) {
+    .project-card>img {
+        width: 350px;
+        height: 220px;
+    }
+
+    .project-card>h3 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 1000px) {
     .projects-inner {
         margin: 60px auto 30px;
     }
@@ -159,7 +182,9 @@ a>li>button:hover, li>button:hover {
 
 @media screen and (max-width: 850px) {
     .flex-system {
-        flex-direction: column;
+        /* flex-direction: column; */
+        grid-template-columns: auto;
+        row-gap: 50px;
         align-items: center;
         margin-bottom: 30px;
     }
@@ -169,7 +194,7 @@ a>li>button:hover, li>button:hover {
     }
 
     .project-card>img {
-        width: 450px;
+        width: 500px;
         height: 300px;
     }
 
