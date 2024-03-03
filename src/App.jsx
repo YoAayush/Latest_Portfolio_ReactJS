@@ -39,7 +39,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='div-main'>
       <div id='menu-icon'>
         <img src="/icons8-menu-100.png" alt="menu-icon" onClick={menuClick} />
       </div>
