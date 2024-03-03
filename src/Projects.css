@@ -118,6 +118,13 @@ a>li>button:hover, li>button:hover {
     border-color: #E24E1B;
 }
 
+#footer {
+    color: white;
+    margin: 0px auto 10px;
+    font-size: 25px;
+    width: fit-content;
+}
+
 @media screen and (max-width: 1260px) {
     .project-card>img {
         width: 400px;
